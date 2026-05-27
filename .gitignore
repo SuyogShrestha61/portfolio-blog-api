@@ -1,9 +1,39 @@
+# Python
 __pycache__/
 *.py[cod]
-*.db
-.env
+*.pyo
+*.egg
 *.egg-info/
 dist/
 build/
+*.db
+*.sqlite3
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
 .venv/
 venv/
+
+# Django
+media/
+staticfiles/
+static/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
